@@ -4,6 +4,24 @@
     Author     : María José
 */
 body{
-    background:#D9A96B;
+    background:white;
     height: 100vh;
+}
+.fondo{
+    
+    width: 100%;
+    height: 50vh;
+    margin:auto;
+    align-items:center;
+    display:flex;
+}
+.Contacto p{
+    font-size: 3rem;
+    color:#ffffff;
+    position: absolute;
+    top:20%; 
+/*    que tan arriba va el texto*/
+    left:50%;
+    transform:translate(-50%,-50%);
+    
 }
