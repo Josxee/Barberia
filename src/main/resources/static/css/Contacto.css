@@ -1,9 +1,13 @@
-
+    
 /* 
     Created on : 7 feb 2023, 13:41:53
     Author     : María José
 */
-body{
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+ body{
     background:white;
     height: 100vh;
 }
@@ -25,3 +29,89 @@ body{
     transform:translate(-50%,-50%);
     
 }
+.Nav{
+    font-size: 20rem;
+    height:80px;
+    left: 15%;
+    right: 10%;
+    align-items:center;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    padding-right: 100px;
+    justify-content:space-between;
+    
+}
+.Ubicacion{
+   height:80px;
+    left: 15%;
+    right: 15%;
+    
+    font-weight: 600;
+    padding-right: 300px;/*
+    justify-content:space-between;*/
+     
+}
+.Telefono{
+    height:80px;
+    left: 15%;
+    right: 15%;
+    font-weight: 600;
+    padding-right: 300px;/*
+    justify-content:space-between;*/
+    
+}
+.Gmail{
+    height:80px;
+    left: 15%;
+    right: 15%;
+    font-weight: 600;
+    padding-right: 300px;/*
+    justify-content:space-between;*/
+  
+    
+}
+.Titulo{
+    font-size: 1rem;
+    height:10vh;
+    margin:auto;
+    left: 15%;
+    right: 10%;
+    align-items:center;
+/*    espacio entre las cosas*/
+    display: flex;
+    position: relative;
+    font-weight: 600;
+    padding-right: 380px;
+    justify-content:space-between;
+     
+}
+.p{
+    
+    
+    font-weight: 600;
+    padding-right: 300px;
+}
+.Info{
+    font-size: 1rem;
+    height:3vh;
+    margin:auto;
+    left: 15%;
+    right: 10%;
+    align-items:center;
+/*    espacio entre las cosas*/
+    display: flex;
+    position: relative;
+    font-weight: 600;
+    padding-right: 380px;
+    justify-content:space-between;
+}
+.correo{
+    font-size: 1rem;
+    height:3vh;
+    left: 15%;
+    right: 10%;
+    font-weight: 600;
+    padding-right: 10px;
+  
+    }
