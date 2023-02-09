@@ -1,9 +1,106 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 7 feb 2023, 12:30:38
-    Author     : Asus
-*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.navegacion {
+    background-color: #D9A96B;
+    align-items: center;
+    display: flex;
+}
+
+.navegacion nav{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+
+.navegacion ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 130px;
+}
+
+.navegacion li{
+    float: left;
+    padding: 20px 30px 20px 0;
+}
+
+.navegacion li a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.navegacion img{
+    padding: 10px 10px 10px 0;
+    width: 100px;
+    max-height: 100px;
+
+    display: inline-block;
+    position: relative;
+    left: 15%;
+}
+
+body {
+    background: #f6f8fa;
+    margin: 0;
+    
+}
+.FAQ {
+    max-width: 800px;
+    margin: 50px auto 0 auto;
+    padding: 2rem;
+}
+.FAQ h1 {
+    margin-bottom: 50px;
+    font-size: 75px;
+    font-weight: 600;
+    text-align: center;
+    color: #07080c;
+}
+
+.FAQ a{
+    text-decoration: none;
+}
+details {
+    background-color: #f6f8fa;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #d8e0e9;
+    color: #07080c;
+    position: relative;
+}
+details summary {
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+details p {
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background: #f6f8fa;
+    border-left: 2px solid #07080c;
+}
+
+
+details[open] {
+    box-shadow: 5px 5px 15px #d9d9d9;
+}
+
+details[open] {
+    background: #ffffff;
+}
+
+details[open] summary {
+    font-weight: 600;
+}
+
 
