@@ -1,0 +1,21 @@
+.center{
+    padding: 60px 0px 0 0px;
+    position: relative;
+    left: 340px;
+}
+
+.txt_field{
+    padding: 5px 0px 0px 0px;
+    
+}
+
+.txt_field input{
+    width: 20%;
+    padding: 1px 50px;
+    height: 40px;
+    font-size: 16px;
+}
+
+body{
+    /*background-color: */
+}
